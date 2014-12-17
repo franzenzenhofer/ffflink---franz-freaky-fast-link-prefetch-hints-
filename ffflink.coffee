@@ -1,4 +1,4 @@
-$('a[href*="'+window.location.hostname+'"], a:not([href^="http"])').on('click',
+$('a[href*="'+window.location.hostname+'"], a:not([href^="http"])').on('mousedown touchstart',
   (elem) ->
     hint = document.createElement("link")
     hint.rel = "prefetch"
